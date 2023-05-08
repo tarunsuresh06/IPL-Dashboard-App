@@ -1,22 +1,22 @@
 .team-card {
-    width: 100%;
-    max-width: 400px;
-    border: 1px solid #ffffff;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 13px;
-    margin: 10px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+  margin: 10px;
 }
 
 .team-card-img {
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
 }
 
 .team-card-name {
-    font-size: 24px;
-    font-weight: 600;
+  font-size: 24px;
+  font-weight: 600;
 }
