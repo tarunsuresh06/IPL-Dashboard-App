@@ -1,5 +1,13 @@
 import './App.css'
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import Home from './components/Home'
 
-const App = () => <h1>Remove this heading and write your code here</h1>
+const App = () => (
+  <BrowserRouter>
+    <Switch>
+      <Route exact path="/" component={Home} />
+    </Switch>
+  </BrowserRouter>
+)
 
 export default App
