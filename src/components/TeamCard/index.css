@@ -39,3 +39,11 @@
     font-size: 25px;
   }
 }
+
+li {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
