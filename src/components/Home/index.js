@@ -12,7 +12,7 @@ class Home extends Component {
 
   getTeamCardsListData = async () => {
     const response = await fetch('https://apis.ccbp.in/ipl')
-    const data = response.json()
+    const data = await response.json()
     const {teams} = data
     const FilteredData = teams.map(eachTeam => ({
       id: eachTeam.id,
